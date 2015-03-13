@@ -1,0 +1,104 @@
+/* ===============================================================
+		General
+ ================================================================= */
+
+body {
+	color: #7D787F;
+	background-color: white;
+	font: 1.2em "Helvetica Neue", Helvetica, Arial, sans-serif;
+	line-height: 1.6em;
+}
+
+a {
+	color: #D58276;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+strong {
+	color: #D58276;
+	font-weight: bold;
+}
+
+hr {
+	background-color: #ccc;
+	border: none;
+	height: 1px;
+}
+
+.text-center {
+	text-align: center;
+}
+
+h2 {
+	color: #D58276;
+	text-align: center;
+}
+
+/* ===============================================================
+		Container
+ ================================================================= */
+
+#main {
+	margin: 0 auto;
+	max-width: 550px;
+}
+
+#main img {
+	display: block;
+	margin: 0 auto;
+	max-width: 100%;
+}
+
+/* ===============================================================
+		Form
+ ================================================================= */
+
+#mc_embed_signup .mc_field_group label {
+	color: #7D787F;
+	font-size: .9em;
+	font-weight: bold;
+}
+
+#mc_embed_signup .mc_field_group input {
+	background-color: #eee;
+	border: 2px solid #EBBD85;
+	color: #333;
+	font-size: 0.8em;
+	padding: 10px 2%;
+	width: 96%;
+}
+
+#mc_embed_signup .button {
+	background-color: #D58276;
+	margin-top: 20px;
+}
+
+/* ===============================================================
+		Past Issues
+ ================================================================= */
+
+#past-issues {
+	width: 100%;
+}
+
+#past-issues th {
+	text-align: left;
+}
+
+#past-issues tr th:last-child,
+#past-issues tr td:last-child {
+	text-align: center;
+}
+
+/* ===============================================================
+		Footer
+ ================================================================= */
+
+.footer p {
+	font-size: .8em;
+	text-align: center;
+}
