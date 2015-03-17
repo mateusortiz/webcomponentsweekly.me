@@ -1,0 +1,10 @@
+body {
+  font: normal 75%/1.1  Roboto, arial, sans-serif;
+}
+
+.header {
+    text-transform: uppercase;
+    font-family: Impact, sans-serif;
+    background-color: #1c193e;
+    color: #fff;
+}
