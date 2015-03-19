@@ -1,0 +1,262 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <!-- Meta -->
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta property="og:title" content="*|MC:SUBJECT|*" /><!-- Facebook sharing information tags -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Info -->
+    <title>*|MC:SUBJECT|*</title>
+
+    <!-- Styles -->
+    <style type="text/css">
+        /* Client-specific Styles */
+        #outlook a {padding:0;} /* Force Outlook to provide a "view in browser" menu link. */
+        body{width:100% !important; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; margin:0; padding:0;}
+
+        /* Prevent Webkit and Windows Mobile platforms from changing default font sizes.*/
+        .ExternalClass {width:100%;} /* Force Hotmail to display emails at full width */
+        .ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {line-height: 100%;}
+
+        /**
+         * Forces Hotmail to display normal line spacing.
+         * More on that: http://www.emailonacid.com/forum/viewthread/43/
+         */
+        #backgroundTable {margin:0; padding:0; width:100% !important; line-height: 100% !important;}
+        /* End reset */
+
+        /* Some sensible defaults for images
+        Bring inline: Yes. */
+        img {outline:none; text-decoration:none; -ms-interpolation-mode: bicubic;}
+        a img {border:none;}
+        .image_fix {display:block;}
+
+        /* Yahoo paragraph fix
+        Bring inline: Yes. */
+        p {margin: 1em 0;}
+
+        h1 {
+            color: #E37B6E !important;
+        }
+
+        h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {color: blue !important;}
+
+        h1 a:active, h2 a:active,  h3 a:active, h4 a:active, h5 a:active, h6 a:active {
+            color: #E37B6E !important; /* Preferably not the same color as the normal header link color.  There is limited support for psuedo classes in email clients, this was added just for good measure. */
+        }
+
+        h1 a:visited, h2 a:visited,  h3 a:visited, h4 a:visited, h5 a:visited, h6 a:visited {
+            color: #ABABAB !important; /* Preferably not the same color as the normal header link color. There is limited support for psuedo classes in email clients, this was added just for good measure. */
+        }
+
+        /* Outlook 07, 10 Padding issue fix
+        Bring inline: No.*/
+        table td {border-collapse: collapse;}
+
+        /* Remove spacing around Outlook 07, 10 tables
+        Bring inline: Yes */
+        table { border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt; }
+
+        /* Styling your links has become much simpler with the new Yahoo.  In fact, it falls in line with the main credo of styling in email and make sure to bring your styles inline.  Your link colors will be uniform across clients when brought inline.
+        Bring inline: Yes. */
+        a {color: #E37B6E;text-decoration: none;}
+
+        p a:hover,
+        li a:hover {
+            text-decoration: underline;
+        }
+
+        @media only screen and (max-device-width: 480px) {
+            /* Bare minimum to make email responsive on small screens. */
+            body[yahoo] table { width: 100% !important; }
+            body[yahoo] .img_100 {
+                width: 100% !important;
+                height: auto !important;
+            }
+
+            /* Part one of controlling phone number linking for mobile. */
+            a[href^="tel"], a[href^="sms"] {
+                text-decoration: none;
+                color: blue; /* or whatever your want */
+                cursor: default;
+            }
+
+            .mobile_link a[href^="tel"], .mobile_link a[href^="sms"] {
+                text-decoration: default;
+                color: orange !important;
+                pointer-events: auto;
+                cursor: default;
+            }
+        }
+
+        @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+            a[href^="tel"], a[href^="sms"] {
+                text-decoration: none;
+                color: blue;
+                cursor: default;
+            }
+
+            .mobile_link a[href^="tel"], .mobile_link a[href^="sms"] {
+                text-decoration: default;
+                color: orange !important;
+                pointer-events: auto;
+                cursor: default;
+            }
+        }
+
+        /* Mailchimp specific styles. */
+        @media only screen and (max-width: 480px) {
+            table[id="canspamBar"] td{font-size:14px !important;}
+            table[id="canspamBar"] td a{display:block !important; margin-top:10px !important;}
+        }
+    </style>
+</head>
+
+<body yahoo="fix" style="background-color:#FFFFFF">
+
+<table cellpadding="0" cellspacing="0" border="0" id="backgroundTable">
+    <tr>
+        <td width="100%" align="center" style="font-family:helvetica,arial,sans-serif;font-size:12px;line-height:26px;background-color:#515151;color:#FFFFFF;">
+            <div mc:edit="std_preheader_links">
+                <!-- *|IFNOT:ARCHIVE_PAGE|* -->Is this email not displaying correctly? <a href="*|ARCHIVE|*" target="_blank" style="color:#FFFFFF;text-decoration:underline;">View it in your browser</a>.<!-- *|END:IF|* -->
+            </div>
+        </td>
+    </tr>
+
+    <tr>
+        <td valign="top" align="center">
+            <table width="600" cellpadding="0" cellspacing="0" border="0">
+                <tr><td height="50"></td></tr>
+                <tr>
+                    <td><img src="logo.png" width="600" height="153" class="img_100" /></td>
+                </tr>
+            </table>
+
+            <table cellpadding="0" cellspacing="0" border="0" style="font-family:helvetica,arial,sans-serif;line-height:28px;color:#7D787F;">
+                <tr>
+                    <td width="25" valign="top"></td>
+                    <td width="550" valign="top" style="font-size:16px;">
+                        <h1 style="text-align:center;font-size:30px;color:#E37B6E;line-height:56px;" mc:edit="title">
+                            Web Components Weekly #23
+                        </h1>
+
+                        <div mc:edit="intro">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            </p>
+
+                            <p>Thanks for reading!</p>
+                        </div>
+
+                        <h2 style="font-size:28px;color:#E37B6E;line-height:34px;text-align:center">
+                            News
+                        </h2>
+
+                        <div mc:repeatable>
+                            <h3 mc:edit="news_title">Some important news item!</h3>
+
+                            <div mc:edit="news_content">
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div mc:hideable>
+                            <h2 style="font-size:28px;color:#E37B6E;line-height:34px;text-align:center">
+                                Quick Tip
+                            </h2>
+
+                            <div mc:edit="quick_tip">
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                </p>
+                            </div>
+                        </div>
+
+                        <h2 style="font-size:28px;color:#E37B6E;line-height:34px;text-align:center">
+                            Resources
+                        </h2>
+
+                        <div mc:repeatable>
+                            <h3 mc:edit="resource_type">Articles</h3>
+
+                            <div mc:edit="resource_list">
+                                <ul>
+                                    <li><a href="#" style="color:#E37B6E;">Lorem ipsum dolor sit amet, consectetur adipisicing elit</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <h2 style="font-size:28px;color:#E37B6E;line-height:34px;text-align:center">
+                            Events
+                        </h2>
+
+                        <div mc:repeatable style="text-align:center;">
+                            <div style="font-style:italic;font-weight:normal;font-size:16px" mc:edit="event_date_and_location">September 12, 2013 - Brazil</div>
+                            <div mc:edit="event_title" style="font-weight:bold;font-size:20px"><a href="http://www.meetup.com/Web-Components-LA/events/219840357/" style="color:#E37B6E;">Discuss Modern Web &amp; Mobile Development, &amp; Web Components 4&#39;s Progress</a></div>
+                            <br/>
+                        </div>
+                        <br>
+                    </td>
+                    <td width="25" valign="top"></td>
+                </tr>
+                <tr style="background-color:#E37B6E;" mc:hideable>
+                    <td width="25" valign="top"></td>
+                    <td width="550" valign="top" style="color:#FFFFFF;font-size:16px;" mc:edit="call_for_content">
+                        <h2 style="font-size:28px;text-align:center">
+                            We want you...!
+                        </h2>
+
+                        <p>
+                            ...to send us your articles, packages, meetups, screencasts, whatever you like to be featured in the next Web Components Weekly! Send all your details to hi@webcomponentsweekly.me
+                        </p>
+                    </td>
+                    <td width="25" valign="top"></td>
+                </tr>
+                <tr>
+                    <td width="25" valign="top"></td>
+                    <td width="550" valign="top" style="font-size:13px;" align="center">
+                        <br/>
+                        <p><a href="http://webcomponentsweekly.me">Website</a> &bull; <a href="https://github.com/mateusortiz/webcomponents-weekly">Github</a></p>
+                    </td>
+                    <td width="25" valign="top"></td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+
+<center>
+    <br>
+    <br>
+    <table border="0" cellpadding="0" cellspacing="0" width="100%" id="canspamBarWrapper" style="background-color:#FFFFFF; border-top:1px solid #E5E5E5;">
+        <tr>
+            <td align="center" valign="top" style="padding-top:20px; padding-bottom:20px;">
+                <table border="0" cellpadding="0" cellspacing="0" id="canspamBar">
+                    <tr>
+                        <td align="center" valign="top" style="color:#606060; font-family:Helvetica, Arial, sans-serif; font-size:11px; line-height:150%; padding-right:20px; padding-bottom:5px; padding-left:20px; text-align:center;">
+                            This email was sent to <a href="*|EMAIL|*" target="_blank" style="color:#404040 !important;">*|EMAIL|*</a>
+                            <br>
+                            <a href="*|ABOUT_LIST|*" target="_blank" style="color:#404040 !important;"><em>why did I get this?</em></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="*|UNSUB|*" style="color:#404040 !important;">unsubscribe from this list</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="*|UPDATE_PROFILE|*" style="color:#404040 !important;">update subscription preferences</a>
+                            <br>
+                            *|LIST:ADDRESSLINE|*
+                            <br>
+                            <br>
+                            *|REWARDS|*
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</center>
+
+</body>
+</html>
