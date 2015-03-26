@@ -8,111 +8,76 @@
 	<meta name="description" content="First Weekly Dedicated the Web Components ">
 	<meta itemprop="image" content="">
 
-	<title>Web Components Weekly</title>
+    <!-- TODO: Add favicon -->
+
+    <title>Web Components Weekly</title>
 
 	<!-- Stylesheet -->
 	<link rel="stylesheet" href="http://cdn-images.mailchimp.com/embedcode/classic-081711.css">
 	<link rel="stylesheet" href="css/main.css">
 
-	<!-- Custom Elements -->
-	<link rel="import" href="components/love-heart/love-heart.html">
-
 	<!-- Polyfill -->
-	<link rel="import" href="components/webcomponentsjs/webcomponents.min.js">
+	<script src="components/webcomponentsjs/webcomponents.min.js"></script>
+
+    <!-- Polymer -->
+    <link rel="import" href="components/polymer/polymer.html">
+
+    <!--
+      TODO: Consider vulcanize to package
+      Custom Elements
+    -->
+    <link rel="import" href="components/love-heart/love-heart.html">
+    <link rel="import" href="components/core-list/core-list.html">
+    <link rel="import" href="elements/list-container/list-container.html">
 
 </head>
 <body>
 
-	<div id="main" class="container">
+	<main>
 		<img src="img/webcomponents-weekly.png" alt="Web Components Weekly">
 
-		<p>Web Components Weekly is a newsletter that will provide you with the latest resources, news items, tip, tricks, talks and events for the Web Components, Polymer and others. Get weekly Web Components news delivered straight to your inbox!</p>
+		<p>Web Components Weekly is a newsletter that provides you with the latest resources, news items, tip, tricks, talks and events for the Web Components, Polymer and others. Get weekly Web Components news delivered straight to your inbox!</p>
 
-		<p>A free, once–weekly when have links round-up of experiments, tools, tips, talks, events, tutorials and inspirational links.</p>
+		<p>A free, weekly round-up of experiments, tools, tips, talks, events, tutorials and inspirational links.</p>
 
-		<p class="text-center">Join the <strong>0+ readers</strong> who subscribe so far!</p>
+		<p>Join the <strong>0+ readers</strong> who have subscribed so far!</p>
 
 		<!-- Begin MailChimp Signup Form -->
-		<div id="mc_embed_signup">
+
+        <section id="mc_embed_signup">
 			<form id="mc_embedded_subscribe_form" class="validate" action="" method="post" name="mc_embedded_subscribe_form" target="_blank" novalidate>
-				<div class="mc_field_group">
-					<label for="mce-EMAIL">Email Adress</label>
-					<input type="email" class="required email" id="email" value="" name="Email">
+				<div class="text-center mc_field_group">
+					<label for="mce-email">Email Address</label>
+					<input class="text-center" type="email" class="required email" id="mce-email" name="Email">
 				</div>
-				<div class="mc_field_group">
-					<label for="mce-FNAME">First Name</label>
-					<input type="text" id="fname" value="" name="Name">
+				<div class="text-center mc_field_group">
+					<label for="mce-fname">First Name</label>
+					<input class="text-center" type="text" id="mce-fname" name="Name">
 				</div>
-				<div class="mc_field_group">
-					<label for="mce-LNAME">Last Name</label>
-					<input type="text" id="lname" value="" name="Name">
+				<div class="text-center mc_field_group">
+					<label for="mce-lname">Last Name</label>
+					<input class="text-center" type="text" id="mce-lname" name="Name">
 				</div>
 
 				<div id="mce-responses" class="clear">
 					<div class="response" id="error-response" style="display:none"></div>
-					<div class="response" id="sucess-response" style="display:none"></div>
+					<div class="response" id="success-response" style="display:none"></div>
 				</div>
 
-				<div class="clear">
-					<input type="submit" id="embedded-subscripe" class="button" value="Subscripe to the list" name="subscripe">
+				<div class="clear text-center">
+					<input type="submit" id="embedded-subscribe" class="button" value="Subscribe to the list" name="subscribe">
 				</div>
 			</form>
-		</div><!-- End MailChimp -->
+		</section>
+
+        <!-- End MailChimp -->
+        <div class="hr"></div>
 
 		<h2>Past Issues</h2>
 
-		<table id="past-issue">
-			<thead>
-				<tr>
-					<th>Title</th>
-					<th>Posted On</th>
-				</tr>
-			</thead>
-			<tbody>
-				<tr>
-					<td><a href="">Web Components weekly #0</a></td>
-					<td>13/03/2015</td>
-				</tr>
-				<tr>
-					<td><a href="">Web Components weekly #0</a></td>
-					<td>13/03/2015</td>
-				</tr>
-				<tr>
-					<td><a href="">Web Components weekly #0</a></td>
-					<td>13/03/2015</td>
-				</tr>
-				<tr>
-					<td><a href="">Web Components weekly #0</a></td>
-					<td>13/03/2015</td>
-				</tr>
-				<tr>
-					<td><a href="">Web Components weekly #0</a></td>
-					<td>13/03/2015</td>
-				</tr>
-				<tr>
-					<td><a href="">Web Components weekly #0</a></td>
-					<td>13/03/2015</td>
-				</tr>
-				<tr>
-					<td><a href="">Web Components weekly #0</a></td>
-					<td>13/03/2015</td>
-				</tr>
-				<tr>
-					<td><a href="">Web Components weekly #0</a></td>
-					<td>13/03/2015</td>
-				</tr>
-				<tr>
-					<td><a href="">Web Components weekly #0</a></td>
-					<td>13/03/2015</td>
-				</tr>
-				<tr>
-					<td><a href="">Web Components weekly #0</a></td>
-					<td>13/03/2015</td>
-				</tr>
-			</tbody>
-		</table>
+        <list-container></list-container>
 
-	</div>
+	</main>
 
 	<footer class="footer">
 		<p>&copy; 2015 Web Components Weekly &bull; Made with <love-heart>♥</love-heart> by <a href="https://twitter.com/mteusortiz">Mateus Ortiz</a></p>

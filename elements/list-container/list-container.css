@@ -1,0 +1,32 @@
+a,
+a:link {
+    color: #D58276;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    padding: 1em;
+}
+
+.item {
+    box-sizing: border-box;
+    height: 80px;
+    border-bottom: 1px solid #ddd;
+    padding: 4px;
+    cursor: default;
+    background-color: white;
+    overflow: hidden;
+}
+
+core-list {
+    height: 40em;
+}

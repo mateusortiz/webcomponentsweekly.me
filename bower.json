@@ -15,6 +15,9 @@
     "tests"
   ],
   "dependencies": {
-    "love-heart": "~0.3.0"
+    "polymer": "~0.5.5",
+    "webcomponentsjs": "~0.6.0",
+    "love-heart": "~0.3.0",
+    "core-list": "Polymer/core-list#0.5.5"
   }
 }
