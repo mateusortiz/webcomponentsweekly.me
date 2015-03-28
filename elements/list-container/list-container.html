@@ -1,0 +1,22 @@
+<polymer-element name="list-container" layout vertical>
+    <template>
+        <link rel="stylesheet" href="list-container.css" >
+        <core-list id="list" data="{{data}}"
+                   selectionenabled="{{selectionEnabled}}"
+                   selection="{{selection}}">
+            <template>
+                <div class="item {{ {selected: selected} | tokenList }}">
+                    <ul layout horizontal center-center>
+                        <li>
+                            <a href="{{model.url}}"
+                               title="Web Components Weekly: {{model.name}}"
+                               target="_blank">{{model.name}}</a>
+                        </li>
+                        <li>{{model.date}}</li>
+                    </ul>
+                </div>
+            </template>
+        </core-list>
+    </template>
+    <script src="list-container.js"></script>
+</polymer-element>
