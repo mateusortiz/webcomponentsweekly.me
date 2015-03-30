@@ -1,10 +1,177 @@
-body {
-  font: normal 75%/1.1  Roboto, arial, sans-serif;
+/* ===============================================================
+		Reset
+ ================================================================= */
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, small, strong,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, menu, main, nav, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: 0;
+    font: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
 }
 
-.header {
-    text-transform: uppercase;
-    font-family: Impact, sans-serif;
-    background-color: #1c193e;
-    color: #fff;
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after {
+    content: '';
+}
+
+:focus {
+    outline: #D58276 solid medium;
+}
+
+/* ===============================================================
+		General
+ ================================================================= */
+
+body {
+	margin: 0;
+	padding: 0;
+	color: #7D787F;
+	background-color: white;
+    font: 1.2em/1.3 "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+strong {
+	font-weight: bold;
+}
+
+a,
+strong,
+h2 {
+    color: #D58276;
+}
+
+p, h2 {
+	text-align: center;
+	padding: 15px 0;
+}
+
+.text-center {
+	text-align: center;
+}
+
+/* ===============================================================
+		Container
+ ================================================================= */
+
+main {
+	margin: 0 auto;
+	max-width: 550px;
+	text-align: center;
+}
+
+.hr {
+	display: block;
+	margin: 0 auto;
+	max-width: 100%;
+}
+
+/* ===============================================================
+		social button
+ ================================================================= */
+
+.social-button {
+	list-style: none;
+	margin: 15px 0 3%;
+	text-align: center;
+}
+
+.social-button li {
+	display: inline-block;
+	margin: 0 5px;
+	height: 24px;
+	vertical-align: top;
+}
+
+.tweet-btn {
+	width: 100px;
+}
+
+.fb-btn {
+	width: 100px;
+}
+
+.gplus-btn {
+	width: 90px;
+}
+
+.gh-btn {
+	width: 120px;
+}
+
+/* ===============================================================
+		Form
+ ================================================================= */
+
+#mc_embed_signup .mc-field-group label {
+	color: #7D787F;
+	font-size: .9em;
+	font-weight: bold;
+}
+
+#mc_embed_signup .mc-field-group input {
+	background-color: #eee;
+	border: 2px solid #EBBD85;
+	color: #333;
+	font-size: 0.8em;
+	padding: 10px 2%;
+	width: 96%;
+}
+
+#mc_embed_signup .button {
+	background-color: #D58276;
+	margin-top: 20px;
+}
+
+/* ===============================================================
+		Past Issues
+ ================================================================= */
+
+#past-issues {
+	width: 100%;
+}
+
+#past-issues th {
+	text-align: left;
+}
+
+#past-issues tr th:last-child,
+#past-issues tr td:last-child {
+	text-align: center;
+}
+
+/* ===============================================================
+		Footer
+ ================================================================= */
+
+.footer p {
+	font-size: .8em;
+	text-align: center;
 }

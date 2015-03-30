@@ -1,0 +1,30 @@
+{
+  "name": "facebook-button",
+  "version": "0.2.0",
+  "description": "Web Component wrapper for Facebook's button using Polymer.",
+  "license": "MIT",
+  "main": "dist/facebook-button.html",
+  "keywords": [
+    "polymer",
+    "web-components"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#~0.5.2"
+  },
+  "homepage": "https://github.com/zenorocha/facebook-button",
+  "_release": "0.2.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "v0.2.0",
+    "commit": "d92b83b9c6e87a5167c38665f4f27ceff1931c9d"
+  },
+  "_source": "git://github.com/zenorocha/facebook-button.git",
+  "_target": "~0.2.0",
+  "_originalSource": "facebook-button",
+  "_direct": true
+}
