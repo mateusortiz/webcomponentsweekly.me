@@ -12,27 +12,15 @@
             var data = [];
 
             // TODO: Add dynamic dates or easier date formatting
-            var dates = [
-                    "01/12/2015",
-                    "01/19/2015",
-                    "01/26/2015",
-                    "02/02/2015",
-                    "02/09/2015",
-                    "02/16/2015",
-                    "02/23/2015",
-                    "03/02/2015",
-                    "03/09/2015",
-                    "03/16/2015",
-                    "03/23/2015",
-                    "03/30/2015"
-                ];
+            var dates = "weekly.json";
 
-            for (var i=1; i < dates.length; i++) {
+
+            for (var i = 0; i < dates.length; i++) {
                 // TODO: replace hardcoded data as needed with dynamic data
                 data.push({
                     id: i,
                     name: ("Web Components Weekly #" + i),
-                    url: "/" + i,
+                    url: "http://us10.campaign-archive2.com/?u=6cd727a9a0da64b4003caa164&id=" + i,
                     date: dates[i]
                 });
             }
