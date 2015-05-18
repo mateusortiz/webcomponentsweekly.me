@@ -4,27 +4,49 @@
         count: 13,
 
         ready: function() {
-            this.data = this.generateData();
-            window.list = this.$.list;
-        },
+          var self = this;
+          this.data = [];
+          var data = [
+        		{
+        			"name": "Web Components Weekly #1",
+        			"id": "5b537c8ca0"
+        		},
+        		{
+        			"name": "Web Components Weekly #2",
+        			"id": "3d95131149"
+        		},
+        		{
+        			"name": "Web Components Weekly #3",
+        			"id": "6bb0920ff6"
+        		},
+        		{
+        			"name": "Web Components Weekly #4",
+        			"id": "6f50177c1d"
+        		},
+        		{
+        			"name": "Web Components Weekly #5",
+        			"id": "c2d3bdb50a"
+        		}
+        	];            
 
-        generateData: function() {
-            var data = [];
+            for (var i = 0; i < data.length; i++) {
+              var item = data[i];
 
-            // TODO: Add dynamic dates or easier date formatting
-            var dates = "weekly.json";
-
-
-            for (var i = 0; i < dates.length; i++) {
-                // TODO: replace hardcoded data as needed with dynamic data
-                data.push({
-                    id: i,
-                    name: ("Web Components Weekly #" + i),
-                    url: "http://us10.campaign-archive2.com/?u=6cd727a9a0da64b4003caa164&id=" + i,
-                    date: dates[i]
-                });
+              
+              this.data.push({
+                id: item.id,
+                name: item.name,
+                url: "http://us10.campaign-archive2.com/?u=6cd727a9a0da64b4003caa164&id=" + item.id
+              });
+            console.log(item);
             }
-            return data.reverse();
+
+            console.log( this.data, this);
+//          this.$.weeklyRefs.addEventListener("core-response", this.generateData );
+          window.list = this.$.list;
         }
+
     });
+
+
 })();
