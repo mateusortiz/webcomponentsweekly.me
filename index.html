@@ -27,11 +27,11 @@
     <link rel="stylesheet" href="http://cdn-images.mailchimp.com/embedcode/classic-081711.css">
     <link rel="stylesheet" href="css/main.css">
 
-    <!-- Polymer -->
-    <link rel="import" href="bower_components/polymer/polymer.html">
-
     <!-- Polyfill -->
     <script src="bower_components/webcomponentsjs/webcomponents.min.js"></script>
+
+    <!-- Polymer -->
+    <link rel="import" href="bower_components/polymer/polymer.html">
 
     <!-- Custom Elements -->
     <link rel="import" href="bower_components/love-heart/love-heart.html">
@@ -40,6 +40,7 @@
     <link rel="import" href="bower_components/github-button/dist/github-button.html">
     <link rel="import" href="bower_components/gplus-elements/dist/gplus-one.html">
     <link rel="import" href="bower_components/core-list/core-list.html">
+    <link rel="import" href="elements/list-container/list-container.html">
 </head>
 <body>
 
@@ -65,7 +66,8 @@
 
         <p>A free, weekly round-up of experiments, tools, tips, talks, events, tutorials and inspirational links.</p>
 
-        <p class="text-center">Join the <strong>526+ readers</strong> who subscribe so far!</p>
+        <p class="text-center">Join the <strong>632+ readers</strong> who subscribe so far!</p>
+
 
         <!-- Begin MailChimp Signup Form -->
         <section id="mc_embed_signup">
@@ -100,6 +102,8 @@
         <div class="hr"></div>
 
         <h2>Past Issues</h2>
+
+        <list-container></list-container>
 
     </main>
 

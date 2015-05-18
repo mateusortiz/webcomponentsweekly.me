@@ -1,0 +1,30 @@
+{
+  "name": "gplus-elements",
+  "version": "0.3.0",
+  "description": "Web Component wrapper for Google Plus' buttons using Polymer.",
+  "license": "MIT",
+  "main": "dist/gplus-one.html",
+  "keywords": [
+    "polymer",
+    "web-components"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#~0.5.2"
+  },
+  "homepage": "https://github.com/zenorocha/gplus-elements",
+  "_release": "0.3.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "v0.3.0",
+    "commit": "21d3c319c8c95c54257e9a58b3f00dbf4e334b09"
+  },
+  "_source": "git://github.com/zenorocha/gplus-elements.git",
+  "_target": "~0.3.0",
+  "_originalSource": "gplus-elements",
+  "_direct": true
+}

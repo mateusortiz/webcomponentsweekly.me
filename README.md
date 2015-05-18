@@ -16,7 +16,7 @@
 
 ## Team
 
-[WebComponentsWeekly.me](http//:www.webcomponentsweekly.me) was made with love by these guys and a bunch of awesome [contributors](https://github.com/mateusortiz/webcomponents-weekly/graphs/contributors)
+[WebComponentsWeekly.me](http://www.webcomponentsweekly.me) was made with love by these guys and a bunch of awesome [contributors](https://github.com/mateusortiz/webcomponents-weekly/graphs/contributors)
 
 [![Mateus Ortiz](http://gravatar.com/avatar/c626989c7ee2bc0734048da9f336d0a3?s=70)](https://github.com/mateusortiz) | [![Ciro Nunes](http://gravatar.com/avatar/ac4189b770a4dbc0078935a68fff6f5c?s=70)](https://github.com/cironunes) | [![Erik Isaksen](http://gravatar.com/avatar/b609d7b3d62870cf8ba3cb620fcdb34d?s=70)](https://github.com/Nevraeka)
 --- | --- | --- | --- | --- | --- | ---
