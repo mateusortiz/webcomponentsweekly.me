@@ -20,6 +20,9 @@
     "gplus-elements": "~0.3.0",
     "twitter-button": "~0.2.0",
     "facebook-button": "~0.2.0",
-    "core-list": "Polymer/core-list#~0.5.5"
+    "core-list": "Polymer/core-list#~0.5.5",
+    "polymer": "~0.5.5",
+    "webcomponentsjs": "~0.6.1",
+    "core-ajax": "Polymer/core-ajax#~0.5.5"
   }
 }
