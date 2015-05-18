@@ -1,0 +1,28 @@
+{
+	"weeklys": [
+		{
+			"name": "Web Components Weekly #1",
+			"id": "5b537c8ca0"
+		},
+		{
+			"name": "Web Components Weekly #2",
+			"id": "3d95131149"
+		},
+		{
+			"name": "Web Components Weekly #3",
+			"id": "6bb0920ff6"
+		},
+		{
+			"name": "Web Components Weekly #4",
+			"id": "6f50177c1d"
+		},
+		{
+			"name": "Web Components Weekly #5",
+			"id": "c2d3bdb50a"
+		},
+        {
+            "name": "Web Components Weekly #6",
+            "id": "8c1807e9dc"
+        }
+	]
+}

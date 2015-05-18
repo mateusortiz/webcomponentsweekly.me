@@ -9,11 +9,13 @@
     <meta name="description" content="First Weekly Dedicated the Web Components">
 
     <!-- Facebook Metatags -->
-    <meta property="og:title" content="weekly">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="http://webcomponentsweekly.me">
-    <meta property="og:description" content="First Weekly Dedicated the Web Components">
-    <meta property="og:image" content="http://webcomponentsweekly.me/img/site_screenshot.jpg">
+    <meta property="og:title" content="Web Components Weekly" />
+    <meta property="og:description" content="First Weekly Dedicated the Web Components" />
+    <meta property="og:image" content="http://webcomponentsweekly.me/img/site_screenshot.jpg" />
+
+    <!-- Chrome Mobile -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="icon" sizes="192x192" href="img/webcomponents-weekly.png">
 
 
     <title>Web Components Weekly</title>
@@ -25,21 +27,21 @@
     <link rel="stylesheet" href="http://cdn-images.mailchimp.com/embedcode/classic-081711.css">
     <link rel="stylesheet" href="css/main.css">
 
-    <!-- Custom Elements -->
-    <link rel="import" href="components/love-heart/love-heart.html">
-    <link rel="import" href="components/facebook-button/dist/facebook-button.html">
-    <link rel="import" href="components/twitter-button/dist/twitter-button.html">
-    <link rel="import" href="components/github-button/dist/github-button.html">
-    <link rel="import" href="components/gplus-elements/dist/gplus-one.html">
-    <link rel="import" href="components/core-list/core-list.html">
-    <link rel="import" href="elements/list-container/list-container.html">
-
-
     <!-- Polyfill -->
-    <link rel="import" href="components/webcomponentsjs/webcomponents.min.js">
+    <script src="bower_components/webcomponentsjs/webcomponents.min.js"></script>
 
     <!-- Polymer -->
-    <link rel="import" href="components/polymer/polymer.html">
+    <link rel="import" href="bower_components/polymer/polymer.html">
+
+    <!-- Custom Elements -->
+    <link rel="import" href="bower_components/love-heart/love-heart.html">
+    <link rel="import" href="bower_components/facebook-button/dist/facebook-button.html">
+    <link rel="import" href="bower_components/twitter-button/dist/twitter-button.html">
+    <link rel="import" href="bower_components/github-button/dist/github-button.html">
+    <link rel="import" href="bower_components/gplus-elements/dist/gplus-one.html">
+    <link rel="import" href="bower_components/core-list/core-list.html">
+    <link rel="import" href="elements/list-container/list-container.html">
+
 
 </head>
 <body>
@@ -66,7 +68,7 @@
 
         <p>A free, weekly round-up of experiments, tools, tips, talks, events, tutorials and inspirational links.</p>
 
-        <p class="text-center">Join the <strong>0+ readers</strong> who subscribe so far!</p>
+        <p class="text-center">Join the <strong>632+ readers</strong> who subscribe so far!</p>
 
         <!-- Begin MailChimp Signup Form -->
         <section id="mc_embed_signup">

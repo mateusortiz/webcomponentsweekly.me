@@ -1,18 +1,26 @@
+<!-- Import Polymer -->
+<link rel="import" href="../../bower_components/polymer/polymer.html">
+
 <polymer-element name="list-container" layout vertical>
     <template>
         <link rel="stylesheet" href="list-container.css" >
-        <core-list id="list" data="{{data}}"
+
+        <core-list style="height: 300px;" id="list" data="{{data}}"
                    selectionenabled="{{selectionEnabled}}"
                    selection="{{selection}}">
+<!--            <core-ajax id="weeklyRefs" auto url="weekly.json" handleas="json" hidden></core-ajax>-->
             <template>
                 <div class="item {{ {selected: selected} | tokenList }}">
                     <ul layout horizontal center-center>
+<!--                         <li>
+                            <img src="/img/web-components.png" alt="Web Components picture">
+                        </li>-->
                         <li>
                             <a href="{{model.url}}"
-                               title="Web Components Weekly: {{model.name}}"
+                               title="{{model.name}}"
                                target="_blank">{{model.name}}</a>
                         </li>
-                        <li>{{model.date}}</li>
+                        
                     </ul>
                 </div>
             </template>
