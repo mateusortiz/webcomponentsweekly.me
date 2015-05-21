@@ -1,24 +1,39 @@
 {
 	"weeklys": [
-		{
-			"name": "Web Components Weekly #1",
-			"id": "5b537c8ca0"
-		},
-		{
-			"name": "Web Components Weekly #2",
-			"id": "3d95131149"
-		},
-		{
-			"name": "Web Components Weekly #3",
-			"id": "6bb0920ff6"
-		},
-		{
-			"name": "Web Components Weekly #4",
-			"id": "6f50177c1d"
-		},
-		{
-			"name": "Web Components Weekly #5",
-			"id": "c2d3bdb50a"
-		}
+	  {
+		"name": "Web Components Weekly #1",
+		"date" : "04/02/2015",
+		"url": "http://eepurl.com/biB5B5"
+	  },
+	  {
+		"name": "Web Components Weekly #2",
+		"date" : "04/08/2015",
+		"url": "http://eepurl.com/bjdEW9"
+	  },
+	  {
+		"name": "Web Components Weekly #3",
+		"date" : "04/17/2015",
+		"url": "http://eepurl.com/bj-f4j"
+	  },
+	  {
+		"name": "Web Components Weekly #4",
+		"date" : "04/22/2015",
+		"url": "http://eepurl.com/bkwVRD"
+	  },
+	  {
+		"name": "Web Components Weekly #5",
+		"date" : "04/29/2015",
+		"url": "http://eepurl.com/bldYD9"
+	  },
+	  {
+		"name": "Web Components Weekly #6",
+		"date" : "05/06/2015",
+		"url": "http://eepurl.com/blYoi1"
+	  },
+	  {
+		"name": "Web Components Weekly #7",
+		"date" : "05/20/2015",
+		"url" : "http://eepurl.com/bm9RG1"
+	  }
 	]
 }

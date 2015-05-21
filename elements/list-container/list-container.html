@@ -4,18 +4,18 @@
 <polymer-element name="list-container" layout vertical>
     <template>
         <link rel="stylesheet" href="list-container.css" >
+        <!--<core-ajax auto url="weekly.json" handleas="json" on-core-response="{{ handleResponse }}"></core-ajax>-->
 
         <core-list style="height: 300px;" id="list" data="{{data}}"
                    selectionenabled="{{selectionEnabled}}"
                    selection="{{selection}}">
-<!--            <core-ajax id="weeklyRefs" auto url="weekly.json" handleas="json" hidden></core-ajax>-->
+
             <template>
+
                 <div class="item {{ {selected: selected} | tokenList }}">
                     <ul layout horizontal center-center>
-<!--                         <li>
-                            <img src="/img/web-components.png" alt="Web Components picture">
-                        </li>-->
                         <li>
+                            <span>{{model.publishedDate}} - </span>
                             <a href="{{model.url}}"
                                title="{{model.name}}"
                                target="_blank">{{model.name}}</a>
