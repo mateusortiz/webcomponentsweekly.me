@@ -175,8 +175,17 @@ main {
 /* ===============================================================
 		Footer
  ================================================================= */
-
 .footer p {
-	font-size: .8em;
+	font-size: .9em;
 	text-align: center;
+}
+
+.icon-oreilly {
+  position: absolute;
+  left: 600px;
+  transition: opacity .25s ease-in-out;
+}
+
+.icon-oreilly:hover {
+  opacity: 0.60;
 }
