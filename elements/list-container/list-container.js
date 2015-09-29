@@ -94,6 +94,10 @@
                 {
                     "name": "Web Components Weekly #22",
                     "id": "613f456754"
+                },
+                {
+                    "name": "Web Components Weekly #23",
+                    "id": "0f1cc7b624"
                 }
             ];
 
