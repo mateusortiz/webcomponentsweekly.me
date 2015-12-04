@@ -126,7 +126,11 @@
                 {
                     "name": "Web Components Weekly #30",
                     "id": "7cf88d57bf"
-                }
+                },
+                {
+                    "name": "Web Components Weekly #31",
+                    "id": "fe61d812c1"
+                },
             ];
 
             for (var i = 0; i < data.length; i++) {
